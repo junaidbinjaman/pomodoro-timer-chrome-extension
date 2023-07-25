@@ -9,8 +9,12 @@
  * 
  */
 
- require_once "../config.php"
+// Calling site header
+require_once "../includes/templates/header/index.php"
 
  ?>
 
  <h1>Hello, World</h1>
+<?php
+// Calling footer
+require_once require_once "../includes/templates/footer/index.php";
