@@ -1,9 +1,64 @@
 body {
-    width: 300px;
+    width: 350px;
     height: 400px;
+    background: indianred;
 }
 
 .header {
     display: flex;
     justify-content: center;
+    background: whitesmoke;
+    margin: -8px;
+    padding: 8px;
+}
+
+#time {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn-container > button {
+    color: indianred;
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.task-input {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 5px 10px 5px 10px;
+    width: 250px;
+}
+
+.delete-task {
+    outline: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    color: indianred;
+    font-weight: 700;
+    cursor: pointer;
 }

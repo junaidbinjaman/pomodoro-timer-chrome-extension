@@ -1,3 +1,35 @@
+body {
+    background-color: indianred;
+}
+
 h1 {
-    color: blue;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+#time-option {
+    outline: none;
+    border: none;
+    width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#save-btn {
+    display: block;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    color: indianred;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
